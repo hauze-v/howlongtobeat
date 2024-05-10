@@ -6,7 +6,7 @@ const UserAgent: any = require('user-agents');
  * Takes care about the http connection and response handling
  */
 export class HltbSearch {
-  public static BASE_URL: string = 'https://howlongtobeat.com/';
+  public static BASE_URL: string = 'https://cors-anywhere.herokuapp.com/https://howlongtobeat.com/';
   public static DETAIL_URL: string = `${HltbSearch.BASE_URL}game?id=`;
   public static SEARCH_URL: string = `${HltbSearch.BASE_URL}api/search`;
   public static IMAGE_URL: string = `${HltbSearch.BASE_URL}games/`;
